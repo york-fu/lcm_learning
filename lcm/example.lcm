@@ -1,0 +1,13 @@
+package example_msgs;
+
+struct Test
+{
+  int64_t sec;
+  int64_t nsec;
+  boolean flag;
+  int16_t num;
+  string str;
+  double vec3d[3];
+  int32_t size;
+  double vecXd[size];
+}
